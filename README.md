@@ -4,7 +4,7 @@ Another AHK v1 spinoff of TillaGoTo with a handful of usability enhancements.
 <img width="1426" height="648" alt="image" src="https://github.com/user-attachments/assets/6fe56cce-5ae7-4b79-a64a-d491873973b2" />
 
 >[!NOTE]
-> This GoTo Spin off is in early Development and was largely written to work with [Notepad++](https://notepad-plus-plus.org).
+> This GoTo Spin off is in early Development and was largely written to work with [Notepad++](https://notepad-plus-plus.org). There *are some bugs*, nothing major, most of the time I'm loving it! Reporting bugs via issues could be helpful and apreaciated. 
 
 >[!IMPORTANT]
 > When first lauching besure to edit the `aJump.ini`. Set you default **TextEditor=** and the paths of other other AHK editors you're using under the `[Programs]` section.
