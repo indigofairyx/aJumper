@@ -7,6 +7,18 @@ Another AHK v1 spinoff of TillaGoTo with a handful of usability enhancements.
 > This GoTo Spin off is in early Development and was largely written to work with [Notepad++](https://notepad-plus-plus.org). There *are some bugs*, nothing major, most of the time I'm loving it! Reporting bugs via issues could be helpful and appreciated. 
 
 # Usage
+Search your `.ahk` files for labels, hotkeys, hotstrings, functions, and #Include's. Double-Click or Enter on a list view item to open to its line in your assigned Text Editor.
+
+Filter by Type with search prefixes...
+
+```
+>	Labels
+()	Functions
+::	Hotkeys
+$ 	Hotstrings
+# 	Includes
+```
+
 Download and Extract the zip from [Releases](https://github.com/indigofairyx/aJumper/releases). There's an `aJump.exe` for ease and `aJump.ahk` for AHK users whom want to tinker with the source script.
 
 
