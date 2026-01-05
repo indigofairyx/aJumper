@@ -30,10 +30,12 @@ these two can open to a line. but cannot follow the active Document from the edi
 - Hotkeys when an TE (Text Editor) is active
 -   `F7`, Reads the Current Doc in A_single file view mode
 -   `F10`, Activates A_Jumper in A_Full file list mode, reading the content of a user supplied list of `.ahk` files
-
+- Save a list of `.ahk` as a project and search only inside of the list in A_full mode
+- drag n drop an `.ahk` file onto the gui to search it.
 - The Context Menu is Dynmaic to the view mode and active path you've clicked on. You can...
 -   Copy indivial elements from the listview
 -   Open the file folder
 -   Switch Modes, in full you switch\read from single file
 -   Toggle viewing inline comments from returned items
 -   Toggle fuzzy\non-fuzzy filter in the search box
+-   and MORE !
