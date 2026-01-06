@@ -1,5 +1,5 @@
 # aJumper
-Another AHK v1 spinoff of TillaGoTo with a handful of usability enhancements.
+An AHK v1 spinoff of TillaGoTo with a handful of customizable usability enhancements. Search your `.ahk` script files for Labels, Functions, Hotkeys, Hotstrings, and Includes then, Double-Click or {Enter} to jump\open to that line in your assigned Text Editor.
 
 <img width="1426" height="648" alt="image" src="https://github.com/user-attachments/assets/6fe56cce-5ae7-4b79-a64a-d491873973b2" />
 
@@ -7,16 +7,39 @@ Another AHK v1 spinoff of TillaGoTo with a handful of usability enhancements.
 > This GoTo Spin off is in early Development and was largely written to work with [Notepad++](https://notepad-plus-plus.org). There *are some bugs*, nothing major, most of the time I'm loving it! Reporting bugs via issues could be helpful and appreciated. 
 
 # Usage
-Search your `.ahk` files for labels, hotkeys, hotstrings, functions, and #Include's. Double-Click or Enter on a list view item to open to its line in your assigned Text Editor.
 
-Filter by Type with search prefixes...
-
+## Filter by Type with search prefixes...
 ```
 >	Labels
 ()	Functions
 ::	Hotkeys
 $ 	Hotstrings
 # 	Includes
+```
+## Hotkeys
+building list... will post soon. #todo
+
+## Slash Commands
+Type a `/` >> `/tip` WithNoSpace! in the search and hit enter too...
+```
+/edit     		 Edit Source Script
+/editlist      Edit Script List
+/exit     		 Exit app
+/full     		 Set ViewMode to Full List.
+/hide     		 Hide GUI
+/load     		 {Space} C:\Paste\a\FilePath.ahk
+/menu     		 Show Context Menu
+/quit     		 Exit app
+/refresh  		 Rebuild list
+/reload   		 Reload App
+/settings 		 Edit INI Options
+/single   		 Set View Mode to Single File
+/switch   		 Run\Switch Between .ahk <> .exe
+/tip      		 Show This Tip Again
+/tray      		 Show Tray Menu
+/compile   	   Re-Compile Source Script
+/bug     		   Debug on GUI
+/ini     		   Edit INI in a Text Editor
 ```
 
 Download and Extract the zip from [Releases](https://github.com/indigofairyx/aJumper/releases). There's an `aJump.exe` for ease and `aJump.ahk` for AHK users whom want to tinker with the source script.
