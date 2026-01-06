@@ -42,7 +42,7 @@ $ 	Hotstrings
 # 	Includes
 ```
 ## Hotkeys
-| KEY                  | ACTION                                                       |
+| HOTKEY                  | ACTION                                                       |
 | :----------------------------------: | ------------------------------ |
 |                      | **Hotkeys in A_Jumper**                                    |
 | `$F10`               | Set view mode to A_full, (HOLD) for 1 Sec to Re-Build the FullListView, (Double-Tap) to edit `aJumpScriptList.txt` |
