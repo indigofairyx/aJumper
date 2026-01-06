@@ -42,7 +42,30 @@ $ 	Hotstrings
 # 	Includes
 ```
 ## Hotkeys
-building list... will post soon. #todo
+| KEY                  | ACTION                                                       |
+| :----------------------------------: | ------------------------------ |
+|                      | **Hotkeys in A_Jumper**                                    |
+| `$F10`               | Set view mode to A_full, (HOLD) for 1 Sec to Re-Build the FullListView, (Double-Tap) to edit `aJumpScriptList.txt` |
+| `F7`                 | Sent view move to single. if single mode is active > refresh active file |
+| `F8`                 | Toggle View Mode A_single<>A_full                            |
+| `Ctrl` + `G`         | Go To \ Open to the line of selected list view item in your TE |
+| `Enter`              | Go To \ Open to the line of selected list view item in your TE |
+| `Ctrl` + `C`         | Copy Details of the selected list view item                  |
+| `Ctrl` + `D`         | Open the directory of the selected list view script.  |
+| `Ctrl` + `Shift` + ` D` | Open A_Jumper's directory |
+| `Alt` + `U`          | Toggle Debug info showing on GUI                            |
+| `Alt` + `F4`         | Exit\Quit A_Jumper                                       |
+| `Ctrl` + `F`         | Focus search box                                   |
+| `Alt` +  `C` | Clear the search box |
+| `Ctrl` + `F5`        | Reload A_Jumper                                              |
+| `F5`                 | Refresh current active file                                  |
+| `F11`                | Edit Settings. Run, `.\aJump.ini`                            |
+| `Ctrl` + `F11`       | Edit INI file alt                                            |
+|                      |                                                              |
+|                      | **Semi-Global Hotkeys to Activate A_Jumper when a text editor is active** |
+| `F7`                 | (G) Activate A_Jumper, Set view mode to Single, Refresh TE Active File |
+| `F10`                | (G) Activate A_Jumper, set view mode to full                 |
+| `Ctrl` + `Alt` + `J` | (G) send selected text from TE to A_Jumper                   |
 
 ## Slash Commands
 Type a `/` >> `/tip` WithNoSpace! in the search and hit enter too...
