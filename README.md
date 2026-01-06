@@ -26,6 +26,7 @@ and LIMITED Support with..
 
 - VS Code
 - VS Codium
+- Zed
 
 These two can open to a line. but cannot follow the active Document from the editor.
 
